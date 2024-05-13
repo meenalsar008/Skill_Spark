@@ -1,0 +1,36 @@
+.dashboard1{
+    padding-top: 3em;
+    font-family:'Gill Sans';
+    font-size: 1.045em;
+    font-weight: 600;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/dashboard_user.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MainHeading{
+    color: rgba(250, 255, 146, 0.899);
+    font-size: 3em;
+    text-align: center;
+}
+.UserDetails{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding: 2em;
+    /* background-color: rgba(168, 28, 223, 0.397); */
+}
+.ClassStatus{
+    text-align: center;
+    /* font-family:'Gill Sans'; */
+    color: rgb(255, 255, 255);
+    font-size: 2.3em;
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+.NoMessage{
+    font-family: 'Gill Sans';
+    font-size: 1.4em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}

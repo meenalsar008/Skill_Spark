@@ -1,0 +1,18 @@
+.classcard1{
+    text-align: center;
+    background-color: rgba(17, 137, 123, 0.381);
+    border-radius: 10px;
+}
+.className{
+    font-family: 'Gill Sans';
+    font-size: 2em;
+}
+.classStart{
+    color: aliceblue;
+}
+.classEnd{
+    color: aliceblue;
+}
+.classRate{
+    color: aliceblue;
+}

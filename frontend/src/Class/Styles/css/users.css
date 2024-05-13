@@ -1,0 +1,116 @@
+.tablestyle {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 20em;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #000;
+  color: #ec9513;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+
+/* Admin table styling  */
+
+
+#adminTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 5em;
+}
+
+#adminTable th,
+td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#adminTable th {
+  background-color: #1e1d1d;
+  color: #e0d4d4;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+#adminTable tr:hover {
+  background-color: #c7c6c6;
+}
+
+td a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+td.rating {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+td.comment {
+  font-style: italic;
+  color: #777;
+}
+
+
+/* Admin Update Styling */
+
+.item-details {
+  margin: 20px auto;
+  width: 500px;
+  font-family: Arial, sans-serif;
+}
+
+.item-details input[type="text"],
+.item-details input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+}
+
+.item-details input[readonly] {
+  background-color: #eee;
+  color: #888;
+}
+
+.item-details p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+button.admin-add{
+float: right;
+margin-bottom: 200px;
+}
